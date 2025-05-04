@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./backend
+    container_name: django-backend
+    volumes:
+      - ./backend:/app
+    expose:
+      - 8000
+
+  frontend:
+    build: ./frontend
+    container_name: react-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
