@@ -1,0 +1,4 @@
+GOALS:
+## Finish client (frontend) ->  homepage,  signup, signin componets before 30th of this month
+## Finish  Authentication, and book scraping logic before 30th of this month as well.
+## Have the MVP of the web app ready by 31st of this month.
